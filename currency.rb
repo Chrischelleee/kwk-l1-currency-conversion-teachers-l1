@@ -58,6 +58,7 @@ case choice
 when 1
   #code here
   total = amount * 0.86
+  return total
 when 2
   #code here
 
