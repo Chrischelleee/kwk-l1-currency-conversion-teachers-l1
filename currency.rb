@@ -28,3 +28,13 @@ def aud_to_usd(input)
   ans = input.to_f / 1.35
   return ans
 end
+
+def usd_to_jpy(input)
+  ans = input.to_i * 110.14
+  return ans
+end
+
+def jpy_to_usd(input)
+  ans = input.to_f / 110.14
+  return ans
+end
