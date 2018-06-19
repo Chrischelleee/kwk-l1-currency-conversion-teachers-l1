@@ -57,7 +57,7 @@ choice = gets.chomp().to_i
 case choice
 when 1
   #code here
-  amount * 0.86 
+  total = amount * 0.86
 when 2
   #code here
 
