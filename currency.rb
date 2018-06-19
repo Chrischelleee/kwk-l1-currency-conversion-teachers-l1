@@ -61,19 +61,32 @@ when 1
   puts total
 when 2
   #code here
-
+  total = amount * 110.14
+  puts total
 when 3
   #code here
+  total = amount * 0.75
+  puts total
 when 4
   #code here
+  total = amount * 1.35
+  puts total
 when 5
   #code here
+  total = amount / 0.86
+  puts total
 when 6
   #code here
+  total = amount / 110.14
+  puts total
 when 7
   #code here
+  total = amount / 0.75
+  puts total
 when 8
   #code here
+  total = amount / 1.35
+  puts total
 else
   puts "Invalid input, exiting..."
 end
